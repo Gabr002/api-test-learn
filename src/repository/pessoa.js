@@ -15,7 +15,7 @@ class RepositoryPeople{
         database[index] = name; 
     }
     Delete(index){
-        database.splice(1, index);
+        database.splice(index, 1);
     }
 }
 
